@@ -271,7 +271,7 @@ color: #2e2f42;
  font-size: normal; 
  margin-left: auto;
   display: block;
- margin: 16px;
+ margin: 16px 0;
 
 
 }
@@ -819,7 +819,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .footer-soc {
     font-style: normal;
-    margin-right: 80px;
+    /* margin-right: 80px; */
    
 }
 
@@ -1457,6 +1457,9 @@ background-color:  #31D0AA;
      margin-right: 120px;
 }
 
+.footer-soc {
+     margin-right: 80px;
+}
 .footer-subtitle {
     text-align: left;
 }
