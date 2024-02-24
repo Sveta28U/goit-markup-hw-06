@@ -167,8 +167,9 @@ color: #2e2f42;
 
 
 .address {
-    font-style: normal;
-    margin-left: auto;
+    display: none;
+    /* font-style: normal;
+    margin-left: auto; */
    
 
 }
@@ -239,9 +240,7 @@ color: #2e2f42;
     align-items: center;
     justify-content: center;
     border: none;
-    background-color: #fff;
-    
-         
+    background-color: #fff;     
 }
 
 .mob-menu-navigation {
@@ -271,7 +270,7 @@ color: #2e2f42;
 .mob-address {
  font-size: normal; 
  margin-left: auto;
- /* display: block; */
+  display: block;
  margin: 16px;
 
 
@@ -282,6 +281,7 @@ color: #2e2f42;
     flex-direction: column;
     gap: 24px;
     font-style: normal;
+    padding: 16px;
     
 }
 .mob-logo-part {
@@ -819,6 +819,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .footer-soc {
     font-style: normal;
+    margin-right: 80px;
    
 }
 
@@ -1224,6 +1225,8 @@ background-color:  #31D0AA;
 
          .address {
             display: block;
+            font-style: normal;
+             margin-left: auto;
          }
          .open-menu-btn{
             display: none;
@@ -1446,6 +1449,8 @@ background-color:  #31D0AA;
 }
 .footer-container {
     justify-content: left;
+    gap: 0;
+    flex-wrap: nowrap;
 }
 .footer-box {
     text-align: left;
